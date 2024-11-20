@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+
+}
+.mainbgimg{
+  height: 450px;
+  background-image: url("./assets/image/81f3ff974d82520780078ba1cfbd453a1583259680.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  
+}
+.zomato-text{
+  text-align: center;
+  font-size:70px;
+  font-weight: bold;
+}
+.discover-text{
+  margin: 0;
+  pad: 0;
+  align-content: center;  
+}
+.cards{
+  display: flex;
+  justify-content: space-evenly;  
+}
+.first-bgimg{
+  height: 180px;
+  background-image: url("./assets/image/dishimhg.webp");
+  background-size: cover;
+  background-position: center; 
+  position: relative;
+  
+}
+.textonimg{  
+  position: absolute;
+  top: 75%;
+  padding: 10px 65px;
+  
+}
+.second-bgimg{
+  height: 180px;
+  background-image: url("./assets/image/d026b357feb0d63c997549f6398da8cc1647364915.webp");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.textonimg2{  
+  position: absolute;
+  top: 75%;
+  padding: 10px 65px;
+  
+}
+.third-bgimg{
+  height: 180px;
+  background-image: url("./assets/image/371de657644f1b5818fcb5d83387c8c91722851940.jpeg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.textonimg3{  
+  position: absolute;
+  top: 75%;
+  padding: 10px 65px;
+  
+}
+.box-1:hover{
+  box-shadow: 0px 0px 5px 3px grey;
+}
+.lightimg1{
+  height: 300px;
+  background-image: url("./assets/image/684397cd092de6a98862220e8cc40aca_1709810183.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.lightimg2{
+  height: 300px;
+  background-image: url("./assets/image/fbd237478a5d3b6ea08de83c30230cdd_1705558245.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+}
+.lightimg3{
+  height: 300px;
+  background-image: url("./assets/image/7771cf3a18e1da2916794d3998260c69_1705557723.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.btom-box:hover{
+  box-shadow: 0px 2px 4px 4px cyan;
+}
+
